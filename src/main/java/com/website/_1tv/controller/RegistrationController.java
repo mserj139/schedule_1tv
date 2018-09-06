@@ -1,5 +1,6 @@
 package com.website._1tv.controller;
 
+import com.website._1tv.domain.Role;
 import com.website._1tv.repository1.UserRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -7,6 +8,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import com.website._1tv.domain.User;
 
+import java.util.Collections;
 import java.util.Map;
 
 
@@ -29,6 +31,10 @@ public class RegistrationController {
       model.put("message", "User exists!");
       return "registration";
     }
+
+    user.setActive(true);
+    user.setRoles(Collections.singleton(Role.USER));
+    userRepo.save(user);
 
     return "redirect:/login";
   }
