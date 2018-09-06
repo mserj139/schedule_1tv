@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f095402-719b-4584-bea7-f46fd0f23d92" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/website/_1tv/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/website/_1tv/config/WebSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/website/_1tv/controller/RegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/website/_1tv/controller/RegistrationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/registration.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/registration.mustache" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -66,11 +65,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RegistrationController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RegistrationController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/website/_1tv/controller/RegistrationController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+            <state relative-caret-position="308">
+              <caret line="39" column="3" lean-forward="true" selection-start-line="39" selection-start-column="3" selection-end-line="39" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#259#260#0" expanded="true" />
@@ -116,11 +115,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WebSecurityConfig.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="WebSecurityConfig.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/website/_1tv/config/WebSecurityConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
+            <state relative-caret-position="181">
+              <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -131,8 +130,8 @@
       <file leaf-file-name="registration.mustache" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/registration.mustache">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="90">
+              <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -194,6 +193,7 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="Serhii Gildi &lt;mserj139@users.noreply.github.com&gt;" />
         <option value="sergeygildi &lt;sergeygildi@gmai.com&gt;" />
       </list>
     </option>
@@ -239,8 +239,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/website/_1tv/domain/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/website/_1tv/repository1/UserRepo.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/registration.mustache" />
-        <option value="$PROJECT_DIR$/src/main/java/com/website/_1tv/config/WebSecurityConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/website/_1tv/controller/RegistrationController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/website/_1tv/config/WebSecurityConfig.java" />
       </list>
     </option>
   </component>
@@ -533,7 +533,7 @@
       <workItem from="1536229850638" duration="3275000" />
       <workItem from="1536233632530" duration="924000" />
       <workItem from="1536243786992" duration="4749000" />
-      <workItem from="1536253965852" duration="4987000" />
+      <workItem from="1536253965852" duration="5259000" />
     </task>
     <task id="LOCAL-00001" summary="new update">
       <created>1536174776827</created>
@@ -577,11 +577,18 @@
       <option name="project" value="LOCAL" />
       <updated>1536258610451</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="* add registation form&#10;* add login form&#10;* add DataBase&#10;* fixed bugs">
+      <created>1536259200814</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1536259200814</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45074000" />
+    <option name="totallyTimeSpent" value="45346000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -608,12 +615,12 @@
       <window_info id="UI Designer" order="4" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49928468" weight="0.39889959" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3287483" />
-      <window_info active="true" anchor="bottom" id="Messages" order="12" sideWeight="0.49928468" visible="true" weight="0.3287483" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49928468" weight="0.3287483" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info id="Image Layers" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="9" weight="0.3287483" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Run Dashboard" order="14" weight="0.434663" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="14" visible="true" weight="0.434663" />
       <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.620887" weight="0.3287483" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6967096" weight="0.35488307" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.3287483" />
@@ -1087,31 +1094,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/website/_1tv/controller/RegistrationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="39" column="3" lean-forward="true" selection-start-line="39" selection-start-column="3" selection-end-line="39" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#277#278#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/registration.mustache">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="90">
+          <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/website/_1tv/config/WebSecurityConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
+        <state relative-caret-position="181">
+          <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/website/_1tv/controller/RegistrationController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#259#260#0" expanded="true" />
-            <element signature="e#277#278#0" expanded="true" />
           </folding>
         </state>
       </provider>
