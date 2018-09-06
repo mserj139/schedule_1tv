@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
+import javax.lang.model.element.NestingKind;
 import java.util.List;
 import java.util.Map;
 
@@ -37,6 +38,21 @@ public class GreetingController {
 
     repo.save(message);
     Iterable<Message> messages = repo.findAll();
+    model.put("messages", messages);
+
+    return "index";
+  }
+
+  @PostMapping("filter")
+  public String filter(@RequestParam String filter, Map<String, Object> model){
+    Iterable<Message> messages;
+
+    if (filter != null && !filter.isEmpty()){
+      messages = repo.findByTag(filter);
+    } else {
+      messages = repo.findAll();
+    }
+
     model.put("messages", messages);
 
     return "index";
