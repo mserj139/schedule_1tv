@@ -9,8 +9,8 @@ public class Message {
   @Id
   @GeneratedValue(strategy=GenerationType.AUTO)
   private Integer id;
-  private String name;
-  private String email;
+  private String text;
+  private String tag;
 
   public Integer getId() {
     return id;
@@ -20,19 +20,19 @@ public class Message {
     this.id = id;
   }
 
-  public String getName() {
-    return name;
+  public String getText() {
+    return text;
   }
 
-  public void setName(String name) {
-    this.name = name;
+  public void setText(String text) {
+    this.text = text;
   }
 
-  public String getEmail() {
-    return email;
+  public String getTag() {
+    return tag;
   }
 
-  public void setEmail(String email) {
-    this.email = email;
+  public void setTag(String tag) {
+    this.tag = tag;
   }
 }
