@@ -45,7 +45,14 @@
 			<version>1.0-SNAPSHOT</version>
 		</dependency>
 
-	</dependencies>
+        <!--security-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
+        </dependency>
+        <!--security-->
+
+    </dependencies>
 
 	<properties>
 		<java.version>1.8</java.version>
