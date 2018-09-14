@@ -1,12 +1,12 @@
-package com.website._1tv.controller;
+package com.website.pbc.controller;
 
-import com.website._1tv.domain.Role;
-import com.website._1tv.repository1.UserRepo;
+import com.website.pbc.domain.Role;
+import com.website.pbc.repos.UserRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
-import com.website._1tv.domain.User;
+import com.website.pbc.domain.User;
 
 import java.util.Collections;
 import java.util.Map;

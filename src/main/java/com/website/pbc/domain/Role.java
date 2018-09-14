@@ -1,5 +1,12 @@
-package com.website._1tv.domain;
+package com.website.pbc.domain;
 
-public enum Role {
+import org.springframework.security.core.GrantedAuthority;
+
+public enum Role implements GrantedAuthority {
   USER;
+
+  @Override
+  public String getAuthority() {
+    return name();
+  }
 }

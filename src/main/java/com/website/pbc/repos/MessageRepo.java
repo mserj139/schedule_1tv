@@ -1,6 +1,6 @@
-package com.website._1tv.repository1;
+package com.website.pbc.repos;
 
-import com.website._1tv.domain.Message;
+import com.website.pbc.domain.Message;
 import org.springframework.data.repository.CrudRepository;
 
 import java.util.List;

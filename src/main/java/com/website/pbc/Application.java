@@ -1,4 +1,4 @@
-package com.website._1tv;
+package com.website.pbc;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
